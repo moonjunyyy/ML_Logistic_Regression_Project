@@ -139,7 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\ML_LR_Gaussian\activation.cpp" />
+    <ClCompile Include="..\ML_LR_Gaussian\LogisticRegression.cpp" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ML_LR_Gaussian\activation.h" />
+    <ClInclude Include="..\ML_LR_Gaussian\LogisticRegression.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
